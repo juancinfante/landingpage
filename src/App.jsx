@@ -9,6 +9,7 @@ import img5 from './assets/galeria2.jpeg'
 import wpp from './assets/wpp.png'
 import './css/article.css'
 import Carousel from 'react-bootstrap/Carousel';
+import { Footer } from './components/Footer';
 
 function App() {
 
@@ -112,6 +113,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
